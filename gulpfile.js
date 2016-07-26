@@ -68,7 +68,7 @@ var autoprefixerOptions = {
 
 // sassコンパイルタスクの設定：[gulp sass]で実行。
 gulp.task('sass', function(){
-	// fsv用の設定。
+	// コンパイルするsassファイルのパスを設定。
 	gulp.src('path')
     // gulp-plumberを設定。
     .pipe(plumber({
