@@ -26,7 +26,7 @@ var ftp = require('gulp-ftp');
 //////////////////
 
 var autoprefixerStyles = {
-  outputStyle: 'compressed',
+  outputStyle: 'expanded',
   sourceMap: true,
   sourceComments: false
 };
